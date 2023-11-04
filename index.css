@@ -38,6 +38,19 @@ sans-serif;*/
 * {
     box-sizing: border-box;
 }
+.Result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-image:linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1)) ;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    
+}
 
 h1 {
     font-family: 'Hanken Grotesk', sans-serif;
@@ -67,7 +80,7 @@ p {
 
 .column.main {
 
-    background-color: hsla(256, 72%, 46%, 1);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%) 70% );
     color: hsl(0, 0%, 100%);
     border-radius: 30px;
     height: 680px;

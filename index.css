@@ -1,0 +1,129 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*font-family: 'Fraunces',
+serif;
+font-family: 'Hanken Grotesk',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;*/
+
+:root {
+    color: hsl(0, 100%, 67%);
+    color: hsl(39, 100%, 56%);
+    color: hsl(166, 100%, 37%);
+    color: hsl(234, 85%, 45%);
+    /* Gradients bg*/
+    color: hsl(252, 100%, 67%);
+    /*Light*/
+    color: hsl(241, 81%, 54%);
+    /*circle*/
+    color: hsla(256, 72%, 46%, 1);
+    color: hsla(241, 72%, 46%, 0);
+    /*Neutral*/
+    color: hsl(0, 0%, 100%);
+    color: hsl(221, 100%, 96%);
+    color: hsl(241, 100%, 89%);
+    color: hsl(224, 30%, 27%)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 43px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(221, 100%, 96%);
+}
+
+p {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column.main {
+
+    background-color: hsla(256, 72%, 46%, 1);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    height: 680px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.column.side {
+    float: right;
+    width: 50%;
+    padding: 30px;
+   text-align:start
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsla(241, 72%, 46%, 0);
+}
+
+.Reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 67%, 89%);
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.Memory{
+    color:hsl(39, 100%, 56%) ;
+    background-color:hsl(39, 79%, 91%) ;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Verbal{
+    color:hsl(166, 100%, 37%) ;
+    background-color:hsl(167, 60%, 86%) ;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+.Visual{
+    color:hsl(234, 85%, 45%) ;
+    background-color: hsl(235, 56%, 85%);
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
